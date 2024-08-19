@@ -1,0 +1,28 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--&lt;!&ndash;https://logging.apache.org/log4j/2.x/manual/configuration.html&ndash;&gt;-->
+<!--<Configuration status="WARN">-->
+<!--    &lt;!&ndash;https://drive.google.com/file/d/1jQOriREUJVZ4i6DsoDez9sg4h8EV_9RI/view?usp=sharing&ndash;&gt;-->
+<!--    <Properties>-->
+<!--        &lt;!&ndash;basePath = name of the Path and Path of folder, ./ = Project path or Root folder&ndash;&gt;-->
+<!--        <Property name="basePath">./logs</Property>-->
+<!--    </Properties>-->
+<!--    <Appenders>-->
+<!--        <Console name="Console" target="SYSTEM_OUT">-->
+<!--            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>-->
+<!--        </Console>-->
+<!--        &lt;!&ndash;https://drive.google.com/file/d/1s395WmrhOmagYC2i5h8zYeEPwsU7CGZL/view?usp=sharing&ndash;&gt;-->
+<!--&lt;!&ndash;        <RollingFile name="File" fileName="${basePath}/logs.log" filePattern="${basePath}/logs-%d{yyyy-MM-dd}.log" append="true">&ndash;&gt;-->
+<!--&lt;!&ndash;            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <SizeBasedTriggeringPolicy size="500" />&ndash;&gt;-->
+<!--&lt;!&ndash;        </RollingFile>&ndash;&gt;-->
+<!--        <RollingFile name="File" fileName="${basePath}/Testlog.log" filePattern="{basePath}/Testlog-%d{yyyy-MM-dd}.log" append="true">-->
+<!--            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n"/>-->
+<!--            <SizeBasedTriggeringPolicy size="500" />-->
+<!--        </RollingFile>-->
+<!--    </Appenders>-->
+<!--    <Loggers>-->
+<!--        <Root level="all">-->
+<!--            <AppenderRef ref="File"/>-->
+<!--        </Root>-->
+<!--    </Loggers>-->
+<!--</Configuration>-->

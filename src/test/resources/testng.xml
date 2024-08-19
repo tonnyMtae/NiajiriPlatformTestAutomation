@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="tz.co.niajiri.qa.utilities.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/tonnymtaye/IdeaProjects/NiajiriPlatformProject">
+        <classes>
+            <class name="tz.co.niajiri.qa.testcases.LoginTest">
+                <methods>
+                    <include name="verifyLoginWithValidCredentials"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.RegistrationTest">
+                <methods>
+                    <include name="userCreatedSuccessfully_when_validateEmail"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.SectorSkillsTest">
+                <methods>
+                    <include name="verifyProfileCompletionWithValidInputs"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.SideMenuItemsTest">
+                <methods>
+                    <include name="verifyFunctionalityOfJengaCVMenuItem"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.BasicDetailsTest">
+                <methods>
+                    <include name="verifyFillingBasicDetailsWithValidInputs"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.DownloadCVWithWatermarkTest">
+                <methods>
+                    <include name="verifyDownloadingCVWithWatermark"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.DownloadCVWithoutWatermarkTest">
+                <methods>
+                    <include name="verifyDownloadingCVWithoutWatermark"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.EducationTest">
+                <methods>
+                    <include name="verifyFillingEducationDetailsWithValidInputs"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.ExperienceTest">
+                <methods>
+                    <include name="verifyFillingExperienceDetailsWithValidInputs"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.LanguageTest">
+                <methods>
+                    <include name="verifyFillingLanguages"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.RefereesTest">
+                <methods>
+                    <include name="verifyFillingRefereeDetailsWithValidInputs"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.SkillsTest">
+                <methods>
+                    <include name="verifyFillingValidSkillsDetails"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVUpload.BasicDetailsTest">
+                <methods>
+                    <include name="verifyFillingBasicDetailsWithValidInputs"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVUpload.CVPreviewTest">
+                <methods>
+                    <include name="verifyFillingValidRefereesDetails"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVUpload.DownloadCVWithWatermarkTest">
+                <methods>
+                    <include name="verifyDownloadingCVWithWatermark"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVUpload.DownloadCVWithoutWatermarkTest">
+                <methods>
+                    <include name="verifyDownloadingCVWithoutWatermark"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVUpload.EducationTest">
+                <methods>
+                    <include name="verifyFillingEducationDetailsWithValidInputs"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVUpload.ExperienceTest">
+                <methods>
+                    <include name="verifyFillingExperienceDetailsWithValidInputs"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVUpload.LanguageTest">
+                <methods>
+                    <include name="verifyFillingLanguages"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVUpload.RefereesTest">
+                <methods>
+                    <include name="verifyFillingValidRefereesDetails"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVUpload.SkillsTest">
+                <methods>
+                    <include name="verifyFillingValidSkillsDetails"/>
+                </methods>
+            </class>
+            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVUpload.UploadCVTest">
+                <methods>
+                    <include name="verifyUploadingCVFunctionality"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
