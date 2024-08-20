@@ -3390,3 +3390,74 @@
 [INFO ] 2024-08-13 19:33:37.675 [main] pageObjects.InsideCVUpload.BasicDetailsPage - Scrolled by 600 PIXEL
 [INFO ] 2024-08-13 19:33:45.865 [main] qa.pageObjects.TemplateSelectionPage - Clicked:Skip for now button
 [INFO ] 2024-08-13 19:33:56.126 [main] qa.pageObjects.NiajiriCVJourneyOptionPage - Clicked:Build CV From Your CV button
+[INFO ] 2024-08-19 16:58:06.714 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-19 16:58:39.694 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-08-19 16:58:44.194 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-08-19 16:58:47.993 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-08-19 16:59:16.106 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-08-19 16:59:21.156 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-08-19 16:59:35.974 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-19 17:00:33.636 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-08-19 17:00:37.213 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-08-19 17:00:40.613 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-08-19 17:01:18.776 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-08-19 17:01:23.811 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 1 count
+[INFO ] 2024-08-19 17:01:40.011 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 2 count
+[INFO ] 2024-08-19 17:04:41.592 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-19 17:06:54.922 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-08-19 17:07:12.452 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-08-19 17:07:22.161 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-08-19 17:08:01.212 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-08-19 17:08:06.418 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-08-19 17:08:49.056 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 1 count
+[INFO ] 2024-08-19 17:08:52.336 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 2 count
+[INFO ] 2024-08-19 20:57:48.327 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-19 20:57:58.449 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-08-19 20:58:08.526 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-19 20:58:17.775 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 1 count
+[INFO ] 2024-08-19 20:58:26.652 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-19 20:58:39.313 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 2 count
+[INFO ] 2024-08-19 20:58:52.679 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-19 20:59:22.133 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-19 20:59:31.604 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-08-19 20:59:45.073 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-19 20:59:54.197 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 1 count
+[INFO ] 2024-08-19 21:00:07.072 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-19 21:00:15.972 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 2 count
+[INFO ] 2024-08-19 21:00:27.360 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-19 21:00:49.306 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-19 21:01:17.401 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-08-19 21:01:21.400 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-08-19 21:01:24.813 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-08-19 21:01:36.963 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-08-19 21:01:42.001 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-08-19 21:01:51.688 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-19 21:02:11.446 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-08-19 21:02:15.335 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-08-19 21:02:18.730 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-08-19 21:02:30.787 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-08-19 21:02:35.825 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 1 count
+[INFO ] 2024-08-19 21:02:48.453 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-19 21:02:58.477 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 2 count
+[INFO ] 2024-08-19 21:03:58.135 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-19 21:04:08.589 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-08-19 21:04:24.462 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-19 21:04:33.780 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 1 count
+[INFO ] 2024-08-20 08:40:22.420 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-20 08:41:02.088 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-20 12:32:46.172 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-20 12:33:14.816 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-08-20 12:33:19.875 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-08-20 12:33:24.091 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-08-20 12:33:52.316 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-08-20 12:33:57.402 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-08-20 12:34:43.354 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-20 12:35:13.736 [Test worker] qa.pageObjects.LandingPage - Clicked:Registration Button
+[INFO ] 2024-08-20 12:35:17.348 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Full Name
+[INFO ] 2024-08-20 12:35:20.993 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Email
+[INFO ] 2024-08-20 12:35:24.316 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Phone Number
+[INFO ] 2024-08-20 12:35:29.291 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Password
+[INFO ] 2024-08-20 12:35:40.834 [Test worker] qa.pageObjects.RegistrationPage - Clicked:Sign Up Button
+[INFO ] 2024-08-20 12:35:47.550 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Email
+[INFO ] 2024-08-20 12:35:50.884 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Password
+[INFO ] 2024-08-20 12:36:07.853 [Test worker] qa.pageObjects.RegistrationPage - Clicked:Sign In Button

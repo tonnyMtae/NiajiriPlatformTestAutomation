@@ -32,7 +32,7 @@ import java.util.concurrent.TimeUnit;
 public class RegistrationTest extends Base {
     private static ApiClient mailslurpClient;
     private static InboxControllerApi inboxControllerApi;
-    private static String API_KEY = "482cc2684915589dce98ecfdbbf97f4b34d7aec948d0a26546bf17fceeb75502";
+    private static String API_KEY = "a24beb9934a8dd856a170810f3c02fbdc86bcb0730281539653f5acea46b14a3";
     public WebDriver driver;
     private static final Long TIMEOUT = 60000L;
     private WebDriverWait wait;
@@ -61,11 +61,11 @@ public class RegistrationTest extends Base {
         inboxControllerApi = new InboxControllerApi(mailslurpClient);
     }
 
-    @Test(description = "Verify Registration and Email Verification", groups = {"Registration"}, retryAnalyzer = RetryListener.class)
+    //, retryAnalyzer = RetryListener.class
+    @Test(description = "Verify Registration and Email Verification", groups = {"Registration"})
     public void userCreatedSuccessfully_when_validateEmail() throws ApiException, InterruptedException, IOException {
         loadPropertiesFile();
         //loadCommonDataPropertiesFile();
-
         var user = UserFactory.createDefault();
         wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 

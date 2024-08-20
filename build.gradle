@@ -27,5 +27,8 @@ dependencies {
 }
 
 test {
-    useTestNG()
+    useTestNG(){
+        useDefaultListeners=true
+        suites "src/test/resources/RegressionInsideCVFromScratch.xml", "src/test/resources/RegressionInsideCVUpload.xml"
+    }
 }
