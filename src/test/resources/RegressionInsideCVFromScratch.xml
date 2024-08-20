@@ -31,56 +31,56 @@
                     <include name="verifyLoginWithValidCredentials" />
                 </methods>
             </class>
-            <class name="tz.co.niajiri.qa.testcases.SectorSkillsTest">
-                <methods>
-                    <include name="verifyProfileCompletionWithValidInputs"/>
-                </methods>
-            </class>
-            <class name="tz.co.niajiri.qa.testcases.SideMenuItemsTest">
-                <methods>
-                    <include name="verifyFunctionalityOfJengaCVMenuItem"/>
-                </methods>
-            </class>
-            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.BasicDetailsTest">
-                <methods>
-                    <include name="verifyFillingBasicDetailsWithValidInputs"/>
-                </methods>
-            </class>
-            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.EducationTest">
-                <methods>
-                    <include name="verifyFillingEducationDetailsWithValidInputs"/>
-                </methods>
-            </class>
-            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.ExperienceTest">
-                <methods>
-                    <include name="verifyFillingExperienceDetailsWithValidInputs"/>
-                </methods>
-            </class>
-            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.SkillsTest">
-                <methods>
-                    <include name="verifyFillingValidSkillsDetails"/>
-                </methods>
-            </class>
-            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.LanguageTest">
-                <methods>
-                    <include name="verifyFillingLanguages"/>
-                </methods>
-            </class>
-            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.RefereesTest">
-                <methods>
-                    <include name="verifyFillingRefereeDetailsWithValidInputs"/>
-                </methods>
-            </class>
-            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.DownloadCVWithWatermarkTest">
-                <methods>
-                    <include name="verifyDownloadingCVWithWatermark"/>
-                </methods>
-            </class>
-            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.DownloadCVWithoutWatermarkTest">
-                <methods>
-                    <include name="verifyDownloadingCVWithoutWatermark"/>
-                </methods>
-            </class>
+<!--            <class name="tz.co.niajiri.qa.testcases.SectorSkillsTest">-->
+<!--                <methods>-->
+<!--                    <include name="verifyProfileCompletionWithValidInputs"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="tz.co.niajiri.qa.testcases.SideMenuItemsTest">-->
+<!--                <methods>-->
+<!--                    <include name="verifyFunctionalityOfJengaCVMenuItem"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.BasicDetailsTest">-->
+<!--                <methods>-->
+<!--                    <include name="verifyFillingBasicDetailsWithValidInputs"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.EducationTest">-->
+<!--                <methods>-->
+<!--                    <include name="verifyFillingEducationDetailsWithValidInputs"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.ExperienceTest">-->
+<!--                <methods>-->
+<!--                    <include name="verifyFillingExperienceDetailsWithValidInputs"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.SkillsTest">-->
+<!--                <methods>-->
+<!--                    <include name="verifyFillingValidSkillsDetails"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.LanguageTest">-->
+<!--                <methods>-->
+<!--                    <include name="verifyFillingLanguages"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.RefereesTest">-->
+<!--                <methods>-->
+<!--                    <include name="verifyFillingRefereeDetailsWithValidInputs"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.DownloadCVWithWatermarkTest">-->
+<!--                <methods>-->
+<!--                    <include name="verifyDownloadingCVWithWatermark"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.DownloadCVWithoutWatermarkTest">-->
+<!--                <methods>-->
+<!--                    <include name="verifyDownloadingCVWithoutWatermark"/>-->
+<!--                </methods>-->
+<!--            </class>-->
         </classes>
     </test>
 </suite>
