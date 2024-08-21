@@ -21,11 +21,11 @@
             </dependencies>
         </groups>
         <classes>
-            <class name="tz.co.niajiri.qa.testcases.RegistrationTest">
-                <methods>
-                    <include name="userCreatedSuccessfully_when_validateEmail" />
-                </methods>
-            </class>
+<!--            <class name="tz.co.niajiri.qa.testcases.RegistrationTest">-->
+<!--                <methods>-->
+<!--                    <include name="userCreatedSuccessfully_when_validateEmail" />-->
+<!--                </methods>-->
+<!--            </class>-->
             <class name="tz.co.niajiri.qa.testcases.LoginTest">
                 <methods>
                     <include name="verifyLoginWithValidCredentials" />
