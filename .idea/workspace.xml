@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="56e410a3-cbb6-4f9a-85c9-6c2010ea9205" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/TestLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/TestLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ExtentReports/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReports/extentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +97,7 @@
     "Gradle.SkillsTest.executor": "Debug",
     "Gradle.SkillsTest.verifyFillingExperienceDetailsWithValidInputs.executor": "Run",
     "Gradle.SkillsTest.verifyFillingValidSkillsDetails.executor": "Debug",
+    "Gradle.Tests in 'NiajiriPlatformProject.test'.executor": "Run",
     "Gradle.UploadCVTest.verifyUploadingCVFunctionality.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -129,8 +134,8 @@
       <recent name="tz.co.niajiri.qa.testcases.niajiriInsideCVUpload" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LoginTest.verifyLoginWithValidCredentials">
-    <configuration name="DownloadCVWithoutWatermarkTest.verifyDownloadingCVWithoutWatermark" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.LoginTest">
+    <configuration name="LoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -143,7 +148,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch.DownloadCVWithoutWatermarkTest.verifyDownloadingCVWithoutWatermark&quot;" />
+            <option value="&quot;tz.co.niajiri.qa.testcases.LoginTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -202,6 +207,51 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Tests in 'NiajiriPlatformProject.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestNG" type="TestNG">
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
       <shortenClasspath name="NONE" />
       <option name="SUITE_NAME" value="" />
@@ -220,16 +270,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/tonnymtaye/IdeaProjects/NiajiriPlatformProject/src/test/resources/RegressionInsideCVFromScratch.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NiajiriPlatformProject.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/RegressionInsideCVFromScratch.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/Users/tonnymtaye/IdeaProjects/NiajiriPlatformProject/src/test/resources/RegressionInsideCVUpload.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NiajiriPlatformProject.test" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/RegressionInsideCVUpload.xml" />
@@ -241,20 +281,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.LoginTest" />
+      <item itemvalue="Gradle.Tests in 'NiajiriPlatformProject.test'" />
       <item itemvalue="Gradle.LoginTest.verifyLoginWithValidCredentials" />
       <item itemvalue="Gradle.RegistrationTest.userCreatedSuccessfully_when_validateEmail" />
-      <item itemvalue="Gradle.DownloadCVWithoutWatermarkTest.verifyDownloadingCVWithoutWatermark" />
+      <item itemvalue="TestNG.TestNG" />
       <item itemvalue="TestNG.Unnamed" />
       <item itemvalue="TestNG./Users/tonnymtaye/IdeaProjects/NiajiriPlatformProject/src/test/resources/RegressionInsideCVUpload.xml" />
-      <item itemvalue="TestNG./Users/tonnymtaye/IdeaProjects/NiajiriPlatformProject/src/test/resources/RegressionInsideCVFromScratch.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LoginTest" />
+        <item itemvalue="Gradle.Tests in 'NiajiriPlatformProject.test'" />
         <item itemvalue="Gradle.LoginTest.verifyLoginWithValidCredentials" />
         <item itemvalue="Gradle.RegistrationTest.userCreatedSuccessfully_when_validateEmail" />
         <item itemvalue="TestNG./Users/tonnymtaye/IdeaProjects/NiajiriPlatformProject/src/test/resources/RegressionInsideCVUpload.xml" />
-        <item itemvalue="TestNG./Users/tonnymtaye/IdeaProjects/NiajiriPlatformProject/src/test/resources/RegressionInsideCVFromScratch.xml" />
-        <item itemvalue="Gradle.DownloadCVWithoutWatermarkTest.verifyDownloadingCVWithoutWatermark" />
       </list>
     </recent_temporary>
   </component>

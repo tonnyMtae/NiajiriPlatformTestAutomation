@@ -3466,3 +3466,40 @@
 [INFO ] 2024-08-21 10:51:20.128 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
 [INFO ] 2024-08-21 10:51:24.262 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
 [INFO ] 2024-08-21 10:52:01.845 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-08-21 15:28:33.579 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-21 15:29:09.218 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-08-21 15:29:12.982 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-08-21 15:29:16.877 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-08-21 15:30:30.410 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-08-21 18:37:45.753 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-21 18:38:04.093 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-08-21 18:38:08.173 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-08-21 18:38:11.638 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-08-21 18:38:23.682 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-08-21 18:38:38.787 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-21 20:29:52.653 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-21 20:30:17.556 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-08-21 20:30:23.954 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-08-21 20:30:28.081 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-08-21 20:30:31.289 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-08-21 20:30:41.074 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 1 count
+[INFO ] 2024-08-21 20:30:44.111 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 2 count
+[INFO ] 2024-08-21 20:32:30.499 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-21 20:32:53.371 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-08-21 20:32:57.570 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-08-21 20:33:02.107 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-08-21 20:33:28.123 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-08-21 20:33:44.926 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-21 20:34:23.048 [Test worker] qa.pageObjects.LandingPage - Clicked:Registration Button
+[INFO ] 2024-08-21 20:34:27.023 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Full Name
+[INFO ] 2024-08-21 20:34:31.065 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Email
+[INFO ] 2024-08-21 20:34:34.731 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Phone Number
+[INFO ] 2024-08-21 20:34:38.208 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Password
+[INFO ] 2024-08-21 20:34:48.949 [Test worker] qa.pageObjects.RegistrationPage - Clicked:Sign Up Button
+[INFO ] 2024-08-21 20:35:04.540 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Email
+[INFO ] 2024-08-21 20:35:07.822 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Password
+[INFO ] 2024-08-21 20:35:19.140 [Test worker] qa.pageObjects.RegistrationPage - Clicked:Sign In Button
+[INFO ] 2024-08-21 20:35:35.594 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-08-21 20:35:45.654 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-08-21 20:35:53.997 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 1 count
+[INFO ] 2024-08-21 20:35:57.036 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 2 count
