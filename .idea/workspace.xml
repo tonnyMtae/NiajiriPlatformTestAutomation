@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56e410a3-cbb6-4f9a-85c9-6c2010ea9205" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/niajiriLogo/NiajiriLogo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/TestLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/TestLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/utilities/ExtentReporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/utilities/ExtentReporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ExtentReports/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReports/extentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +52,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/utilities/ExtentReporter.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -81,7 +91,7 @@
     "Gradle.LanguageTest.verifyFillingExperienceDetailsWithValidInputs.executor": "Run",
     "Gradle.LanguageTest.verifyFillingLanguages.executor": "Debug",
     "Gradle.LoginTest.executor": "Debug",
-    "Gradle.LoginTest.verifyLoginWithValidCredentials.executor": "Run",
+    "Gradle.LoginTest.verifyLoginWithValidCredentials.executor": "Coverage",
     "Gradle.RefereesTest.executor": "Debug",
     "Gradle.RefereesTest.verifyFillingRefereeDetailsWithValidInputs.executor": "Debug",
     "Gradle.RefereesTest.verifyFillingValidRefereesDetails.executor": "Run",
@@ -98,7 +108,7 @@
     "Gradle.UploadCVTest.verifyUploadingCVFunctionality.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG./Users/tonnymtaye/IdeaProjects/NiajiriPlatformProject/src/test/resources/RegressionInsideCVFromScratch.xml.executor": "Debug",
+    "TestNG./Users/tonnymtaye/IdeaProjects/NiajiriPlatformProject/src/test/resources/RegressionInsideCVFromScratch.xml.executor": "Run",
     "TestNG./Users/tonnymtaye/IdeaProjects/NiajiriPlatformProject/src/test/resources/RegressionInsideCVUpload.xml.executor": "Debug",
     "TestNG./Users/tonnymtaye/IdeaProjects/NiajiriPlatformProject/src/test/resources/testng.xml.executor": "Run",
     "git-widget-placeholder": "main",
@@ -117,11 +127,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/ProfilePhoto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/niajiriLogo" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/com" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch" />
@@ -180,7 +190,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTest.userCreatedSuccessfully_when_validateEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RegistrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -193,7 +203,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tz.co.niajiri.qa.testcases.RegistrationTest.userCreatedSuccessfully_when_validateEmail&quot;" />
+            <option value="&quot;tz.co.niajiri.qa.testcases.RegistrationTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -204,7 +214,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'NiajiriPlatformProject.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SectorSkillsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -216,6 +226,8 @@
         <option name="taskNames">
           <list>
             <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tz.co.niajiri.qa.testcases.SectorSkillsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -267,9 +279,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/tonnymtaye/IdeaProjects/NiajiriPlatformProject/src/test/resources/RegressionInsideCVUpload.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/tonnymtaye/IdeaProjects/NiajiriPlatformProject/src/test/resources/RegressionInsideCVFromScratch.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NiajiriPlatformProject.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/RegressionInsideCVUpload.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/RegressionInsideCVFromScratch.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -278,21 +290,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.RegistrationTest" />
+      <item itemvalue="Gradle.SectorSkillsTest" />
       <item itemvalue="Gradle.LoginTest" />
-      <item itemvalue="Gradle.Tests in 'NiajiriPlatformProject.test'" />
       <item itemvalue="Gradle.LoginTest.verifyLoginWithValidCredentials" />
-      <item itemvalue="Gradle.RegistrationTest.userCreatedSuccessfully_when_validateEmail" />
       <item itemvalue="TestNG.TestNG" />
       <item itemvalue="TestNG.Unnamed" />
-      <item itemvalue="TestNG./Users/tonnymtaye/IdeaProjects/NiajiriPlatformProject/src/test/resources/RegressionInsideCVUpload.xml" />
+      <item itemvalue="TestNG./Users/tonnymtaye/IdeaProjects/NiajiriPlatformProject/src/test/resources/RegressionInsideCVFromScratch.xml" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.LoginTest" />
-        <item itemvalue="Gradle.Tests in 'NiajiriPlatformProject.test'" />
         <item itemvalue="Gradle.LoginTest.verifyLoginWithValidCredentials" />
-        <item itemvalue="Gradle.RegistrationTest.userCreatedSuccessfully_when_validateEmail" />
-        <item itemvalue="TestNG./Users/tonnymtaye/IdeaProjects/NiajiriPlatformProject/src/test/resources/RegressionInsideCVUpload.xml" />
+        <item itemvalue="Gradle.SectorSkillsTest" />
+        <item itemvalue="Gradle.RegistrationTest" />
+        <item itemvalue="TestNG./Users/tonnymtaye/IdeaProjects/NiajiriPlatformProject/src/test/resources/RegressionInsideCVFromScratch.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -320,6 +332,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NiajiriPlatformProject$DownloadCVWithoutWatermarkTest_verifyDownloadingCVWithoutWatermark.ic" NAME="DownloadCVWithoutWatermarkTest.verifyDownloadingCVWithoutWatermark Coverage Results" MODIFIED="1723213580126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/NiajiriPlatformProject$LoginTest_verifyLoginWithValidCredentials.ic" NAME="LoginTest.verifyLoginWithValidCredentials Coverage Results" MODIFIED="1724397895313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/NiajiriPlatformProject$LanguageTest_verifyFillingLanguages.ic" NAME="LanguageTest.verifyFillingLanguages Coverage Results" MODIFIED="1723188512217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/NiajiriPlatformProject$EducationTest_verifyFillingEducationDetailsWithValidInputs.ic" NAME="EducationTest.verifyFillingEducationDetailsWithValidInputs Coverage Results" MODIFIED="1723278596701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>

@@ -1,10 +1,6 @@
 package tz.co.niajiri.qa.testcases;
 
-import com.github.javafaker.Faker;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import tz.co.niajiri.qa.pageObjects.LandingPage;

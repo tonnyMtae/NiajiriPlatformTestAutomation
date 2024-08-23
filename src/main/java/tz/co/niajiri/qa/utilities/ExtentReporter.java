@@ -7,6 +7,9 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.Base64;
 import java.util.Properties;
 
 public class ExtentReporter{
@@ -20,6 +23,15 @@ public class ExtentReporter{
         sparkReporter.config().setDocumentTitle("Niajiri Platform Automation Report");
         sparkReporter.config().setTimeStampFormat("dd/MM/yyyy hh:mm:ss");
 
+        String logoPath = System.getProperty("user.dir") + "/src/main/java/niajiriLogo/NiajiriLogo.png";
+        String logoBase64 = Base64.getEncoder().encodeToString(Files.readAllBytes(Paths.get(logoPath)));
+
+        // Adjusted CSS for better positioning
+        String css = ".nav-logo { padding-left: 18px; display: flex; align-items: center; justify-content: center;} " +
+                ".nav-right::before { content: url(data:image/png;base64," + logoBase64 + "); margin-right: 10px; width: 100px; height: auto;} " +
+                ".nav-left { display: flex; justify-content: flex-end; align-items: center; }"; // Adjust .nav-left to ensure alignment to the right
+
+        sparkReporter.config().setCss(css);
         extentReport.attachReporter(sparkReporter);
 
 
