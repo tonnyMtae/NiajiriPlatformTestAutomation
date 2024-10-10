@@ -5,30 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56e410a3-cbb6-4f9a-85c9-6c2010ea9205" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/pageObjects/AgreeTermsAndConditionPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/pageObjects/PaymentServicePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/AgreeTermsAndConditionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/PaymentServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testng_PaymentService.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify Login With Valid Credentials.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/Verify Login With Valid Credentials.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify Registration and Email Verification.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/Verify Registration and Email Verification.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/TestLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/TestLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/commonData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/commonData.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testData.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/LogTemplates/LogTemplates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/LogTemplates/LogTemplates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/base/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/base/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/pageObjects/InsideCVFromScratch/BasicDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/pageObjects/InsideCVFromScratch/BasicDetailsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/pageObjects/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/pageObjects/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/pageObjects/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/pageObjects/SectorSkillsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/pageObjects/SectorSkillsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/RegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/niajiriInsideCVFromScratch/BasicDetailsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/niajiriInsideCVFromScratch/BasicDetailsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/RegressionInsideCVFromScratch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_RegressionInsideCVFromScratch.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/RegressionInsideCVUpload.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_RegressionInsideCVUpload.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_All.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/ExtentReports/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReports/extentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,6 +90,7 @@
     "Gradle.LanguageTest.verifyFillingLanguages.executor": "Debug",
     "Gradle.LoginTest.executor": "Debug",
     "Gradle.LoginTest.verifyLoginWithValidCredentials.executor": "Debug",
+    "Gradle.NiajiriPlatformProject [test].executor": "Debug",
     "Gradle.PaymentServiceTest.verifyFillingBasicDetailsWithValidInputs.executor": "Debug",
     "Gradle.RefereesTest.executor": "Debug",
     "Gradle.RefereesTest.verifyFillingRefereeDetailsWithValidInputs.executor": "Debug",
@@ -162,7 +141,7 @@
       <recent name="tz.co.niajiri.qa.testcases.niajiriInsideCVUpload" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AgreeTermsAndConditionTest.verifyAgreeTermsAndConditions">
+  <component name="RunManager" selected="Gradle.NiajiriPlatformProject [test]">
     <configuration name="AgreeTermsAndConditionTest.verifyAgreeTermsAndConditions" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -211,28 +190,26 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="PaymentServiceTest.verifyFillingBasicDetailsWithValidInputs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NiajiriPlatformProject [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tz.co.niajiri.qa.testcases.PaymentServiceTest.verifyFillingBasicDetailsWithValidInputs&quot;" />
+            <option value="test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="RegistrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -326,7 +303,7 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.AgreeTermsAndConditionTest.verifyAgreeTermsAndConditions" />
-      <item itemvalue="Gradle.PaymentServiceTest.verifyFillingBasicDetailsWithValidInputs" />
+      <item itemvalue="Gradle.NiajiriPlatformProject [test]" />
       <item itemvalue="Gradle.RegistrationTest.userCreatedSuccessfully_when_validateEmail" />
       <item itemvalue="Gradle.LoginTest.verifyLoginWithValidCredentials" />
       <item itemvalue="Gradle.RegistrationTest" />
@@ -335,11 +312,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.NiajiriPlatformProject [test]" />
         <item itemvalue="Gradle.AgreeTermsAndConditionTest.verifyAgreeTermsAndConditions" />
         <item itemvalue="Gradle.RegistrationTest" />
         <item itemvalue="Gradle.LoginTest.verifyLoginWithValidCredentials" />
         <item itemvalue="Gradle.RegistrationTest.userCreatedSuccessfully_when_validateEmail" />
-        <item itemvalue="Gradle.PaymentServiceTest.verifyFillingBasicDetailsWithValidInputs" />
       </list>
     </recent_temporary>
   </component>
