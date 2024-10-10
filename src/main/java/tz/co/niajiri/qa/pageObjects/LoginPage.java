@@ -1,5 +1,4 @@
 package tz.co.niajiri.qa.pageObjects;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,12 +9,15 @@ public class LoginPage {
     WebDriver driver;
     Action action = new Action();
 
+
     @FindBy(xpath = "//input[@id='email']")
     private WebElement emailLoginInputField;
     @FindBy(xpath = "//input[@id='login-password']")
     private WebElement passwordLoginInputField;
     @FindBy(xpath = "//button[normalize-space()='Sign In']")
     private WebElement signInButton;
+
+
 
     public LoginPage(WebDriver driver){
         this.driver = driver;
@@ -30,6 +32,7 @@ public class LoginPage {
     }
 
     public SectorSkillsPage clickSignInButton(){
+//        actions.moveToElement(emailLoginInputField).click().sendKeys("").build().perform();
         action.click(signInButton, LoginPage.class ,"Sign In Button");
         return new SectorSkillsPage(driver);
     }
@@ -39,4 +42,5 @@ public class LoginPage {
         enterValidPasswordText(password);
         clickSignInButton();
     }
+
 }

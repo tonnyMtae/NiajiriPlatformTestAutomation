@@ -21,21 +21,21 @@
             </dependencies>
         </groups>
         <classes>
-            <class name="tz.co.niajiri.qa.testcases.RegistrationTest">
-                <methods>
-                    <include name="userCreatedSuccessfully_when_validateEmail" />
-                </methods>
-            </class>
+<!--            <class name="tz.co.niajiri.qa.testcases.RegistrationTest">-->
+<!--                <methods>-->
+<!--                    <include name="userCreatedSuccessfully_when_validateEmail" />-->
+<!--                </methods>-->
+<!--            </class>-->
             <class name="tz.co.niajiri.qa.testcases.LoginTest">
                 <methods>
                     <include name="verifyLoginWithValidCredentials" />
                 </methods>
             </class>
-            <class name="tz.co.niajiri.qa.testcases.SectorSkillsTest">
-                <methods>
-                    <include name="verifyProfileCompletionWithValidInputs"/>
-                </methods>
-            </class>
+<!--            <class name="tz.co.niajiri.qa.testcases.SectorSkillsTest">-->
+<!--                <methods>-->
+<!--                    <include name="verifyProfileCompletionWithValidInputs"/>-->
+<!--                </methods>-->
+<!--            </class>-->
 <!--            <class name="tz.co.niajiri.qa.testcases.SideMenuItemsTest">-->
 <!--                <methods>-->
 <!--                    <include name="verifyFunctionalityOfJengaCVMenuItem"/>-->

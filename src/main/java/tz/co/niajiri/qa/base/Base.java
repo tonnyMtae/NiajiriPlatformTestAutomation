@@ -2,9 +2,13 @@ package tz.co.niajiri.qa.base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.safari.SafariOptions;
 import tz.co.niajiri.qa.LogTemplates.LogTemplates;
 import tz.co.niajiri.qa.actionDriver.Action;
 import tz.co.niajiri.qa.utilities.LoggerHelper;
@@ -32,13 +36,23 @@ public class Base {
 
     public WebDriver initializeBrowserAndOpenApplicationURL(String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
-            driver = new ChromeDriver();
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--headless");
+            options.addArguments("--window-size=1920,1080");
+            driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
-            driver = new FirefoxDriver();
+            FirefoxOptions options = new FirefoxOptions();
+            options.addArguments("--headless");
+            options.addArguments("--window-size=1920,1080");
+            driver = new FirefoxDriver(options);
         } else if (browserName.equalsIgnoreCase("edge")) {
-            driver = new EdgeDriver();
+            EdgeOptions options = new EdgeOptions();
+            options.addArguments("--headless");
+            options.addArguments("--window-size=1920,1080");
+            driver = new EdgeDriver(options);
         } else if (browserName.equalsIgnoreCase("Safari")) {
             driver = new SafariDriver();
+            SafariOptions options = new SafariOptions();
         }
         else {
             throw new IllegalArgumentException("Unsupported browser: " + browserName);

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import tz.co.niajiri.qa.LogTemplates.LogTemplates;
 import tz.co.niajiri.qa.actionDriver.Action;
-import tz.co.niajiri.qa.utilities.LoggerHelper;
+
 
 import java.time.Duration;
 

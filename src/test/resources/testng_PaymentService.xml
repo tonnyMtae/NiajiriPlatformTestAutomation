@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Inside CV from Scratch Test Suite">
+    <listeners>
+        <listener class-name="tz.co.niajiri.qa.utilities.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Regression">
+<!--        <groups>-->
+<!--            <dependencies>-->
+<!--                &lt;!&ndash; Dependency Chain &ndash;&gt;-->
+<!--                <group name="Login" depends-on="Registration"/>-->
+<!--                <group name="SectorSkillsDetails" depends-on="Login"/>-->
+<!--                <group name="SideMenuItem" depends-on="SectorSkillsDetails"/>-->
+<!--                <group name="BasicDetails" depends-on="SideMenuItem"/>-->
+<!--                <group name="EducationDetails" depends-on="BasicDetails"/>-->
+<!--                <group name="ExperienceDetails" depends-on="EducationDetails"/>-->
+<!--                <group name="LanguageDetails" depends-on="ExperienceDetails"/>-->
+<!--                <group name="SkillsDetails" depends-on="LanguageDetails"/>-->
+<!--                <group name="RefereesDetails" depends-on="SkillsDetails"/>-->
+<!--                <group name="DownloadCV" depends-on="RefereesDetails"/>-->
+<!--            </dependencies>-->
+<!--        </groups>-->
+        <classes>
+            <class name="tz.co.niajiri.qa.testcases.LoginTest">
+                <methods>
+                    <include name="verifyLoginWithValidCredentials" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

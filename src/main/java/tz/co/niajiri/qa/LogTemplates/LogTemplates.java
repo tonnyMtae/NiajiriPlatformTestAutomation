@@ -8,6 +8,7 @@ public class LogTemplates {
     protected static String FIRSTNAMEFIELD = "First Name Field";
     protected static String FIRSTNAME = "First Name";
     protected static String FULLNAME = "Valid Full Name";
+    protected static String AGREETERMSANDCONDITION = "Agree Terms and Condition Button";
     protected static String EMAIL = "Valid Email";
     protected static String BIRTHDATE = "Birth Date";
     protected static String BIRTHDATEFIELD = "Birth Date Field";

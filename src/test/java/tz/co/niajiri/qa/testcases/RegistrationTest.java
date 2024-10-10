@@ -10,15 +10,15 @@ import com.mailslurp.models.InboxDto;
 import factories.UserFactory;
 import okhttp3.OkHttpClient;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.*;
 import tz.co.niajiri.qa.actionDriver.Action;
 import tz.co.niajiri.qa.base.Base;
+import tz.co.niajiri.qa.pageObjects.AgreeTermsAndConditionPage;
 import tz.co.niajiri.qa.pageObjects.LandingPage;
 import tz.co.niajiri.qa.pageObjects.RegistrationPage;
 import org.openqa.selenium.JavascriptExecutor;
-import tz.co.niajiri.qa.utilities.RetryListener;
 
 import java.io.IOException;
 import java.time.Duration;
@@ -32,7 +32,8 @@ import java.util.concurrent.TimeUnit;
 public class RegistrationTest extends Base {
     private static ApiClient mailslurpClient;
     private static InboxControllerApi inboxControllerApi;
-    private static final String API_KEY = System.getenv("MAILSLURP_API_KEY");
+    private static final String API_KEY = "482cc2684915589dce98ecfdbbf97f4b34d7aec948d0a26546bf17fceeb75502";
+    //private static final String API_KEY = System.getenv("MAILSLURP_API_KEY");
     public WebDriver driver;
     private static final Long TIMEOUT = 60000L;
     private WebDriverWait wait;
@@ -131,6 +132,9 @@ public class RegistrationTest extends Base {
 
         registrationPage.clickSignInButton();
         Thread.sleep(Duration.ofSeconds(5));
+
+        AgreeTermsAndConditionPage agreeTermsAndConditionPage= new AgreeTermsAndConditionPage(driver);
+        Assert.assertTrue(agreeTermsAndConditionPage.verifyExistanceOfAgreeTermsAndConditions());
     }
 
     @AfterMethod

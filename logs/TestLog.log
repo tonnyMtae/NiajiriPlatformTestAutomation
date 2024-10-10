@@ -3883,3 +3883,142 @@
 [INFO ] 2024-08-23 16:36:49.752 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
 [INFO ] 2024-08-23 16:36:53.570 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
 [INFO ] 2024-08-23 16:37:15.882 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-10-04 14:19:16.660 [Test worker] qa.base.Base - Navigated to URL: https://staging.niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-10-04 14:19:58.495 [Test worker] qa.pageObjects.LandingPage - Clicked:Registration Button
+[INFO ] 2024-10-04 14:20:02.446 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Full Name
+[INFO ] 2024-10-04 14:20:06.598 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Email
+[INFO ] 2024-10-04 14:20:10.014 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Phone Number
+[INFO ] 2024-10-04 14:20:13.580 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Password
+[INFO ] 2024-10-04 14:20:29.348 [Test worker] qa.pageObjects.RegistrationPage - Clicked:Sign Up Button
+[INFO ] 2024-10-04 14:48:21.714 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-04 14:48:59.073 [Test worker] qa.pageObjects.LandingPage - Clicked:Registration Button
+[INFO ] 2024-10-04 14:49:02.592 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Full Name
+[INFO ] 2024-10-04 14:49:06.105 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Email
+[INFO ] 2024-10-04 14:49:09.509 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Phone Number
+[INFO ] 2024-10-04 14:49:13.250 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Password
+[INFO ] 2024-10-04 14:49:29.257 [Test worker] qa.pageObjects.RegistrationPage - Clicked:Sign Up Button
+[INFO ] 2024-10-04 15:24:37.188 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-04 15:25:40.663 [Test worker] qa.pageObjects.LandingPage - Clicked:Registration Button
+[INFO ] 2024-10-04 15:25:44.746 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Full Name
+[INFO ] 2024-10-04 15:25:49.236 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Email
+[INFO ] 2024-10-04 15:25:52.655 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Phone Number
+[INFO ] 2024-10-04 15:25:56.434 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Password
+[INFO ] 2024-10-04 15:26:08.867 [Test worker] qa.pageObjects.RegistrationPage - Clicked:Sign Up Button
+[INFO ] 2024-10-04 15:26:26.987 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Email
+[INFO ] 2024-10-04 15:26:30.736 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Password
+[INFO ] 2024-10-04 15:26:42.648 [Test worker] qa.pageObjects.RegistrationPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 09:20:33.023 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-10 09:21:01.159 [Test worker] qa.pageObjects.LandingPage - Clicked:Registration Button
+[INFO ] 2024-10-10 09:21:05.735 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Full Name
+[INFO ] 2024-10-10 09:21:09.312 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Email
+[INFO ] 2024-10-10 09:21:12.615 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Phone Number
+[INFO ] 2024-10-10 09:21:16.135 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Password
+[INFO ] 2024-10-10 09:21:28.902 [Test worker] qa.pageObjects.RegistrationPage - Clicked:Sign Up Button
+[INFO ] 2024-10-10 09:23:11.229 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-10 09:23:38.480 [Test worker] qa.pageObjects.LandingPage - Clicked:Registration Button
+[INFO ] 2024-10-10 09:23:42.193 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Full Name
+[INFO ] 2024-10-10 09:23:45.873 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Email
+[INFO ] 2024-10-10 09:23:49.195 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Phone Number
+[INFO ] 2024-10-10 09:23:52.655 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Password
+[INFO ] 2024-10-10 09:24:04.633 [Test worker] qa.pageObjects.RegistrationPage - Clicked:Sign Up Button
+[INFO ] 2024-10-10 09:58:24.141 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-10 09:58:44.517 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 09:58:47.980 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-10 09:58:51.531 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-10 09:59:06.498 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 09:59:28.195 [Test worker] qa.pageObjects.SideMenuItems - Clicked:Jenga CV Menu Item
+[INFO ] 2024-10-10 09:59:49.080 [Test worker] qa.pageObjects.DownloadCVWithoutWatermarkPage - Clicked:Download CV Button 
+[INFO ] 2024-10-10 09:59:55.604 [Test worker] qa.pageObjects.DownloadCVWithoutWatermarkPage - Clicked:Download This Template icon button 
+[INFO ] 2024-10-10 10:00:01.873 [Test worker] qa.pageObjects.DownloadCVWithoutWatermarkPage - Clicked:Upgrade Now Button 
+[INFO ] 2024-10-10 10:00:11.938 [Test worker] qa.pageObjects.DownloadCVWithoutWatermarkPage - Clicked:Pay Now Button 
+[INFO ] 2024-10-10 10:00:18.329 [Test worker] qa.pageObjects.DownloadCVWithoutWatermarkPage - Entered value:Phone Number Field
+[INFO ] 2024-10-10 10:00:28.031 [Test worker] qa.pageObjects.DownloadCVWithoutWatermarkPage - Clicked:Proceed With Payment Button 
+[INFO ] 2024-10-10 10:01:11.567 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-10-10 10:01:28.901 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-10 10:01:49.675 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 10:01:53.097 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-10 10:01:56.616 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-10 10:02:10.471 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 10:02:30.525 [Test worker] qa.pageObjects.SideMenuItems - Clicked:Jenga CV Menu Item
+[INFO ] 2024-10-10 10:02:51.868 [Test worker] qa.pageObjects.DownloadCVWithoutWatermarkPage - Clicked:Download CV Button 
+[INFO ] 2024-10-10 10:02:58.169 [Test worker] qa.pageObjects.DownloadCVWithoutWatermarkPage - Clicked:Download This Template icon button 
+[INFO ] 2024-10-10 10:03:04.320 [Test worker] qa.pageObjects.DownloadCVWithoutWatermarkPage - Clicked:Upgrade Now Button 
+[INFO ] 2024-10-10 10:03:13.730 [Test worker] qa.pageObjects.DownloadCVWithoutWatermarkPage - Clicked:Pay Now Button 
+[INFO ] 2024-10-10 10:03:20.046 [Test worker] qa.pageObjects.DownloadCVWithoutWatermarkPage - Entered value:Phone Number Field
+[INFO ] 2024-10-10 10:03:32.388 [Test worker] qa.pageObjects.DownloadCVWithoutWatermarkPage - Clicked:Proceed With Payment Button 
+[INFO ] 2024-10-10 10:04:15.696 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 1 count
+[INFO ] 2024-10-10 10:04:25.960 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 2 count
+[INFO ] 2024-10-10 10:10:15.571 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-10 10:10:42.451 [Test worker] qa.pageObjects.LandingPage - Clicked:Registration Button
+[INFO ] 2024-10-10 10:10:46.376 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Full Name
+[INFO ] 2024-10-10 10:10:49.886 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Email
+[INFO ] 2024-10-10 10:10:53.144 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Phone Number
+[INFO ] 2024-10-10 10:10:56.831 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Password
+[INFO ] 2024-10-10 10:11:07.814 [Test worker] qa.pageObjects.RegistrationPage - Clicked:Sign Up Button
+[INFO ] 2024-10-10 10:11:14.492 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Email
+[INFO ] 2024-10-10 10:11:17.790 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Password
+[INFO ] 2024-10-10 10:11:30.942 [Test worker] qa.pageObjects.RegistrationPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 10:36:22.817 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-10 10:36:48.625 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 10:36:52.486 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-10 10:36:55.779 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-10 10:37:09.003 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 10:37:14.078 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-10-10 10:37:26.562 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-10 10:37:48.550 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 10:37:52.204 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-10 10:37:55.577 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-10 10:38:09.138 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 10:38:14.160 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 1 count
+[INFO ] 2024-10-10 10:38:27.829 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-10 10:38:50.611 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 10:38:54.488 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-10 10:38:57.965 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-10 10:39:10.317 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 10:39:15.344 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 2 count
+[INFO ] 2024-10-10 10:39:28.510 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-10 10:39:44.978 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 10:39:48.446 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-10 10:39:51.695 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-10 10:40:09.765 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 10:46:22.157 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-10 10:46:41.097 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 10:46:44.782 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-10 10:46:48.478 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-10 10:47:00.947 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 10:47:05.989 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-10-10 10:47:23.074 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-10 10:47:44.084 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 10:47:48.257 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-10 10:47:52.057 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-10 10:48:10.526 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 10:48:15.607 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 1 count
+[INFO ] 2024-10-10 10:48:31.847 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-10 10:48:54.591 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 10:48:58.152 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-10 10:49:01.718 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-10 11:31:35.834 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-10 11:32:06.522 [Test worker] qa.pageObjects.LandingPage - Clicked:Registration Button
+[INFO ] 2024-10-10 11:32:10.041 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Full Name
+[INFO ] 2024-10-10 11:32:13.845 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Email
+[INFO ] 2024-10-10 11:32:17.145 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Phone Number
+[INFO ] 2024-10-10 11:32:20.631 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Password
+[INFO ] 2024-10-10 11:32:31.618 [Test worker] qa.pageObjects.RegistrationPage - Clicked:Sign Up Button
+[INFO ] 2024-10-10 11:32:37.618 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Email
+[INFO ] 2024-10-10 11:32:40.890 [Test worker] qa.pageObjects.RegistrationPage - Entered value:Valid Password
+[INFO ] 2024-10-10 11:32:54.604 [Test worker] qa.pageObjects.RegistrationPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 11:34:46.993 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-10 11:35:04.173 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 11:35:07.778 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-10 11:35:11.117 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-10 11:35:49.304 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-10-10 11:36:01.656 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-10 11:36:21.580 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 11:36:25.381 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-10 11:36:28.962 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-10 11:37:52.928 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-10 11:38:11.552 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 11:38:15.300 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-10 11:38:18.661 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-10 11:38:32.193 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-10-10 11:38:49.239 [Test worker] qa.pageObjects.RegistrationPage - Clicked:Agree Terms and Condition

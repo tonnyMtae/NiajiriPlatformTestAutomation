@@ -28,7 +28,6 @@ public class RegistrationPage extends LogTemplates {
     @FindBy(xpath = "//button[normalize-space()='Sign In']")
     private WebElement signInButton;
 
-
     public RegistrationPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);

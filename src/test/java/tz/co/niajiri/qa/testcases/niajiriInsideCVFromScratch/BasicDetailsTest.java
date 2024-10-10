@@ -1,8 +1,6 @@
 package tz.co.niajiri.qa.testcases.niajiriInsideCVFromScratch;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 import tz.co.niajiri.qa.actionDriver.Action;
 import tz.co.niajiri.qa.base.Base;

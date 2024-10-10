@@ -65,8 +65,7 @@ public class SectorSkillsPage extends LogTemplates {
     }
 
     public boolean getDisplayStatusOfGenderDropdownOption(){
-        boolean displayStatus = genderDropDown.isDisplayed();
-        return displayStatus;
+        return genderDropDown.isDisplayed();
     }
 
     public void selectBirthDate(String year, String month, String date){
