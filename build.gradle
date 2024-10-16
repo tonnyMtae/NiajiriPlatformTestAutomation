@@ -26,15 +26,46 @@ dependencies {
     implementation group: 'com.aventstack', name: 'extentreports', version: '5.1.2'
 }
 
+
 test {
-    useTestNG(){
+    useTestNG() {
         useDefaultListeners=true
-        // Check if the suite file is provided via command line
+        // Check if suiteFile is specified only when executing tests
         if (project.hasProperty('suiteFile')) {
+            println "Running suite: ${project.suiteFile}"
             suites project.suiteFile
         } else {
-            // Fallback to default suites
-            suites "src/test/resources/testng_RegressionInsideCVUpload.xml"
+            println "No suiteFile specified, skipping suite configuration."
         }
     }
 }
+
+//test {
+//    useTestNG() {
+//        useDefaultListeners = true
+//
+//        if (!project.hasProperty('suiteFile')) {
+//            // Optionally set a default suite file or just log a message
+//            println "Warning: No suiteFile specified. Please run with '-DsuiteFile=<path-to-your-suite>'."
+//            // Uncomment the next line to set a default suite file if needed
+//            // suites 'src/test/resources/defaultSuite.xml'
+//        } else {
+//            println "Running suite: ${project.suiteFile}"
+//            suites project.suiteFile
+//        }
+//    }
+//}
+
+
+//test {
+//    useTestNG(){
+//        useDefaultListeners=true
+//        // Check if the suite file is provided via command line
+//        if (project.hasProperty('suiteFile')) {
+//            suites project.suiteFile
+//        } else {
+//            // Fallback to default suites
+//            suites "src/test/resources/testng_RegressionInsideCVUpload.xml"
+//        }
+//    }
+//}
