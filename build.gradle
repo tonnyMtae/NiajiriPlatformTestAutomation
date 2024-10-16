@@ -29,7 +29,12 @@ dependencies {
 test {
     useTestNG(){
         useDefaultListeners=true
-        //suites "src/test/resources/testng_RegressionInsideCVFromScratch.xml"
-        //suites "src/test/resources/RegressionInsideCVFromScratch.xml", "src/test/resources/RegressionInsideCVUpload.xml"
+        // Check if the suite file is provided via command line
+        if (project.hasProperty('suiteFile')) {
+            suites project.suiteFile
+        } else {
+            // Fallback to default suites
+            suites "src/test/resources/defaultSuite.xml"
+        }
     }
 }

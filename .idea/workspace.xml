@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56e410a3-cbb6-4f9a-85c9-6c2010ea9205" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liveCredentials.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify Registration and Email Verification.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/Verify Registration and Email Verification.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/TestLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/TestLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testData.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/LogTemplates/LogTemplates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/LogTemplates/LogTemplates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/actionDriver/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/actionDriver/Action.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/base/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/base/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/pageObjects/PaymentServicePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/pageObjects/PaymentServicePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/pageObjects/SectorSkillsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tz/co/niajiri/qa/pageObjects/SectorSkillsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/AgreeTermsAndConditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/AgreeTermsAndConditionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/PaymentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/PaymentServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/RegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/SectorSkillsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tz/co/niajiri/qa/testcases/SectorSkillsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_PaymentService.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_SmokePaymentService.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_RegressionInsideCVFromScratch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_RegressionInsideCVFromScratch.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng_RegressionInsideCVUpload.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng_RegressionInsideCVUpload.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ExtentReports/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReports/extentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
