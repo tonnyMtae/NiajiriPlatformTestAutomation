@@ -1,9 +1,7 @@
 package tz.co.niajiri.qa.pageObjects;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
@@ -11,11 +9,13 @@ import tz.co.niajiri.qa.LogTemplates.LogTemplates;
 import tz.co.niajiri.qa.actionDriver.Action;
 import tz.co.niajiri.qa.utilities.LoggerHelper;
 
+import java.time.Duration;
 import java.util.List;
 
 public class SectorSkillsPage extends LogTemplates {
     WebDriver driver;
     Action action = new Action();
+    Actions actions;
 
     @FindBy(id = "full_name")
     private WebElement fullNameField;
@@ -34,6 +34,12 @@ public class SectorSkillsPage extends LogTemplates {
 
     @FindBy(xpath = "//select[@aria-label='Month']")
     private WebElement monthDropDown;
+
+    @FindBy(xpath = "//select[@id='disability']")
+    private WebElement disabilityDropdown;
+
+    @FindBy(xpath = "//input[@placeholder='Choose Disability type']")
+    private WebElement disabilityTypeDropdown;
 
     @FindBy(xpath = "//span[normalize-space()='Add Sector']")
     private WebElement addSectorButton;
@@ -83,6 +89,20 @@ public class SectorSkillsPage extends LogTemplates {
         }
 
     }
+
+    public void selectDisabilityStatus(){
+        action.selectOptionByValue(disabilityDropdown, "1", SectorSkillsPage.class, DISABILITYSTATUS);
+    }
+
+    public void selectDisabilityType() throws InterruptedException {
+        action.click(disabilityTypeDropdown, SectorSkillsPage.class, DISABILITYTYPES);
+        Thread.sleep(Duration.ofSeconds(4));
+        action.sendKeys(disabilityTypeDropdown, "Blind", SectorSkillsPage.class, DISABILITYTYPES);
+        Thread.sleep(Duration.ofSeconds(4));
+        driver.findElement(By.xpath("//li[@role='treeitem']")).click();
+        LoggerHelper.info(SectorSkillsPage.class, "SELECTED: " + DISABILITYTYPES);
+    }
+
 
     public void selectInterestedSectors(){
         action.click(addSectorButton, SectorSkillsPage.class, ADDSECTORBUTTON);

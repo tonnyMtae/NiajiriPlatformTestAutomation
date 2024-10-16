@@ -38,8 +38,17 @@ public class SectorSkillsTest extends Base {
         loginPage.signInIntoNiajiri(properties.getProperty("validEmail"), properties.getProperty("validPassword"));
 
         SectorSkillsPage sectorSkillsPage = new SectorSkillsPage(driver);
+
+        sectorSkillsPage.selectInterestedSectors();
+
+        Thread.sleep(Duration.ofSeconds(3));
+
+        sectorSkillsPage.clickSubmitButton();
+
+        Thread.sleep(Duration.ofSeconds(3));
         // Add Assertion to verify the fullname input is equal to fullname in testData.properties
         sectorSkillsPage.uploadProfilePhoto();
+
         Thread.sleep(Duration.ofSeconds(3));
 
         sectorSkillsPage.selectGender();
@@ -49,16 +58,19 @@ public class SectorSkillsTest extends Base {
 
         Thread.sleep(Duration.ofSeconds(5));
         sectorSkillsPage.selectBirthDate("1999", "January", "13");
+
         Thread.sleep(Duration.ofSeconds(3));
 
-        sectorSkillsPage.selectInterestedSectors();
+        sectorSkillsPage.selectDisabilityStatus();
 
-        Thread.sleep(Duration.ofSeconds(5));
+        Thread.sleep(Duration.ofSeconds(3));
 
-        sectorSkillsPage.clickSubmitButton();
+        sectorSkillsPage.selectDisabilityType();
+
         Thread.sleep(Duration.ofSeconds(5));
 
         sectorSkillsPage.clickSaveButton();
+
         Thread.sleep(Duration.ofSeconds(5));
 
         // Assert the Acknowledgment message is Displayed

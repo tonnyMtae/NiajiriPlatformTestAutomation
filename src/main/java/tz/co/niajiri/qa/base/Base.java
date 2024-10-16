@@ -9,9 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.safari.SafariOptions;
-import tz.co.niajiri.qa.LogTemplates.LogTemplates;
 import tz.co.niajiri.qa.actionDriver.Action;
-import tz.co.niajiri.qa.utilities.LoggerHelper;
 import tz.co.niajiri.qa.utilities.WaitUtils;
 
 import java.io.File;
@@ -19,7 +17,6 @@ import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.time.Duration;
 import java.util.Date;
 import java.util.Properties;
 
@@ -29,16 +26,18 @@ public class Base {
 
     public Properties properties;
     public Properties commonDataProperties;
+    public Properties liveCredentialProperties;
     WebDriver driver;
     static String destinationPath = System.getProperty("user.dir") + "/src/main/java/com/testData.properties";
     static String commonDataDestinationPath= System.getProperty("user.dir")+"/src/main/java/com/commonData.properties";
+    static String liveCredentialsDestinationPath= System.getProperty("user.dir")+"/src/main/java/com/liveCredentials.properties";
 
 
     public WebDriver initializeBrowserAndOpenApplicationURL(String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("--headless");
-            options.addArguments("--window-size=1920,1080");
+//            options.addArguments("--headless");
+//            options.addArguments("--window-size=1920,1080");
             driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             FirefoxOptions options = new FirefoxOptions();
@@ -58,6 +57,34 @@ public class Base {
             throw new IllegalArgumentException("Unsupported browser: " + browserName);
         }
         action.openURLandMaximizeBrowser(driver, commonDataProperties.getProperty("globalURL"), commonDataProperties.getProperty("browserName"), Base.class);
+        WaitUtils.sleepTime(7);
+        return driver;
+    }
+
+    public WebDriver initializeBrowserAndOpenApplicationLiveURL(String browserName) {
+        if (browserName.equalsIgnoreCase("chrome")) {
+            ChromeOptions options = new ChromeOptions();
+//            options.addArguments("--headless");
+//            options.addArguments("--window-size=1920,1080");
+            driver = new ChromeDriver(options);
+        } else if (browserName.equalsIgnoreCase("firefox")) {
+            FirefoxOptions options = new FirefoxOptions();
+//            options.addArguments("--headless");
+//            options.addArguments("--window-size=1920,1080");
+            driver = new FirefoxDriver(options);
+        } else if (browserName.equalsIgnoreCase("edge")) {
+            EdgeOptions options = new EdgeOptions();
+//            options.addArguments("--headless");
+//            options.addArguments("--window-size=1920,1080");
+            driver = new EdgeDriver(options);
+        } else if (browserName.equalsIgnoreCase("Safari")) {
+            driver = new SafariDriver();
+            SafariOptions options = new SafariOptions();
+        }
+        else {
+            throw new IllegalArgumentException("Unsupported browser: " + browserName);
+        }
+        action.openURLandMaximizeBrowser(driver, liveCredentialProperties.getProperty("globalLiveURL"), liveCredentialProperties.getProperty("browserName"), Base.class);
         WaitUtils.sleepTime(7);
         return driver;
     }
@@ -127,6 +154,20 @@ public class Base {
             FileInputStream cdfis = new FileInputStream(commonDatafile);
             // This method loads the properties from the file into the properties object.
             commonDataProperties.load(cdfis);
+        } catch (Throwable e){
+            e.printStackTrace();
+        }
+    }
+
+    public void loadLiveCredentialPropertiesFile(){
+        liveCredentialProperties = new Properties();
+        //Locate the path of config.properties file
+        File liveCredentialfile = new File(liveCredentialsDestinationPath);
+        try{
+            // This stream is used to read the contents of the file.
+            FileInputStream lc = new FileInputStream(liveCredentialfile);
+            // This method loads the properties from the file into the properties object.
+            liveCredentialProperties.load(lc);
         } catch (Throwable e){
             e.printStackTrace();
         }

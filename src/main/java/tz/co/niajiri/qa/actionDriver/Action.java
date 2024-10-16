@@ -1,18 +1,11 @@
 package tz.co.niajiri.qa.actionDriver;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.bidi.log.Log;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.Select;
 import tz.co.niajiri.qa.actionInterface.ActionInterface;
 import tz.co.niajiri.qa.utilities.LoggerHelper;
 import tz.co.niajiri.qa.utilities.WaitUtils;
 
-import java.io.File;
-import java.io.IOException;
-import java.lang.reflect.Method;
-import java.time.Duration;
 
 public class Action implements ActionInterface {
     WebDriver driver;

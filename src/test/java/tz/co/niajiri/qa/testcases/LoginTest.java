@@ -20,6 +20,7 @@ public class LoginTest extends Base {
     public void setUp() throws InterruptedException {
         loadCommonDataPropertiesFile();
         driver = initializeBrowserAndOpenApplicationURL(commonDataProperties.getProperty("browserName"));
+
     }
 
     @Test(description = "Verify Login With Valid Credentials", groups = {"Login"}, retryAnalyzer = RetryListener.class)

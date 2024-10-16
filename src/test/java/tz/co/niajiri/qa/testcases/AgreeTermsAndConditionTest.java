@@ -23,7 +23,7 @@ public class AgreeTermsAndConditionTest extends Base {
         driver = initializeBrowserAndOpenApplicationURL(commonDataProperties.getProperty("browserName"));
     }
 
-    @Test(description = "Verify Login With Valid Credentials", groups = {"Login"}, retryAnalyzer = RetryListener.class)
+    @Test(description = "Verify Agreeing to Terms and Condition", groups = {"TermsAndCondition"}, retryAnalyzer = RetryListener.class)
     public void verifyAgreeTermsAndConditions() throws InterruptedException {
         loadPropertiesFile();
         LandingPage landingPage = new LandingPage(driver);

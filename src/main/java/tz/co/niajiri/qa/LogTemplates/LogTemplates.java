@@ -12,6 +12,8 @@ public class LogTemplates {
     protected static String EMAIL = "Valid Email";
     protected static String BIRTHDATE = "Birth Date";
     protected static String BIRTHDATEFIELD = "Birth Date Field";
+    protected static String DISABILITYSTATUS = "Disability Status dropdown";
+    protected static String DISABILITYTYPES = "Disability Type Dropdown";
     protected static String DATE = "Date";
     protected static String MONTH = "Month";
     protected static String JENGACVMENUITEM = "Jenga CV Menu Item";
@@ -101,6 +103,11 @@ public class LogTemplates {
     protected static String VERIFYPAYMENTBUTTON = "Verify Payment Button ";
     protected static String CONTINUEWITHWATERMARKBUTTON = "Continue With Watermark Button ";
     protected static String DOWNLOADTHISTEMPLATE = "Download This Template icon button ";
+    protected static String SUBSCRIPTIONMENUITEM = "Subscription menu item ";
+    protected static String SHANGWEPACKAGEBUTTON = "Shangwe Package button ";
+
+
+
 
 
 

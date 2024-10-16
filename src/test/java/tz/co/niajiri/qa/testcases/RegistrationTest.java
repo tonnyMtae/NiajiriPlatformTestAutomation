@@ -32,10 +32,10 @@ import java.util.concurrent.TimeUnit;
 public class RegistrationTest extends Base {
     private static ApiClient mailslurpClient;
     private static InboxControllerApi inboxControllerApi;
-    //private static final String API_KEY = "482cc2684915589dce98ecfdbbf97f4b34d7aec948d0a26546bf17fceeb75502";
-    private static final String API_KEY = System.getenv("MAILSLURP_API_KEY");
+    private static final String API_KEY = "482cc2684915589dce98ecfdbbf97f4b34d7aec948d0a26546bf17fceeb75502";
+    //private static final String API_KEY = System.getenv("MAILSLURP_API_KEY");
     public WebDriver driver;
-    private static final Long TIMEOUT = 60000L;
+    private static final Long TIMEOUT = 90000L;
     private WebDriverWait wait;
     Action action = new Action();
 
@@ -78,9 +78,9 @@ public class RegistrationTest extends Base {
                 true,
                 false,
                 null,
-                600000L,
+                900000L,
                 false,
-                String.valueOf(InboxDto.InboxTypeEnum.HTTP_INBOX),
+                 String.valueOf(InboxDto.InboxTypeEnum.HTTP_INBOX),
                 false,
                 null,
                 null,
@@ -108,31 +108,91 @@ public class RegistrationTest extends Base {
         Thread.sleep(Duration.ofSeconds(5));
         registrationPage.clickSignUpButton();
         var currentTime = OffsetDateTime.ofInstant(Instant.now(), ZoneId.systemDefault());
-        var waitForControllerApi = new WaitForControllerApi(mailslurpClient);
+        //var waitForControllerApi = new WaitForControllerApi(mailslurpClient);
 
-        Email receivedEmail = waitForControllerApi
-                .waitForLatestEmail(inbox.getId(), TIMEOUT, false, null, currentTime, null, 10000L);
+        int maxAttempts = 5;
+        int pollInterval = 10000; // 10 seconds
+        for (int attempt = 1; attempt <= maxAttempts; attempt++) {
+            try {
+                var waitForControllerApi = new WaitForControllerApi(mailslurpClient);
+                Email receivedEmail = waitForControllerApi
+                        .waitForLatestEmail(inbox.getId(), TIMEOUT, false, null, currentTime, null, 10000L);
 
-        var emailLink =
-                Arrays.stream(receivedEmail.getBody().split(System.getProperty("line.separator")))
-                        .filter(l -> l.contains("email=")).findFirst().get();
+                if (receivedEmail != null) {
+                    System.out.println("Email received: " + receivedEmail.getBody());
+                    var emailLink =
+                            Arrays.stream(receivedEmail.getBody().split(System.getProperty("line.separator")))
+                                    .filter(l -> l.contains("email=")).findFirst().get();
+                    System.out.println(emailLink.trim());
 
-        System.out.println(emailLink.trim());
+                    driver.navigate().to(emailLink.trim());
+                    System.out.println("Opened link");
 
-        driver.navigate().to(emailLink.trim());
-        System.out.println("Opened link");
+                    registrationPage.enterLoginEmailText(user.getEmail());
+                    WriteValidRegistrationCredentials("validEmail", user.getEmail());
+                    System.out.println(user.getEmail());
 
-        registrationPage.enterLoginEmailText(user.getEmail());
-        WriteValidRegistrationCredentials("validEmail", user.getEmail());
-        System.out.println(user.getEmail());
+                    registrationPage.enterLoginPasswordText(user.getPassword());
+                    WriteValidRegistrationCredentials("validPassword", user.getPassword());
+                    System.out.println(user.getPassword());
 
-        registrationPage.enterLoginPasswordText(user.getPassword());
-        WriteValidRegistrationCredentials("validPassword", user.getPassword());
-        System.out.println(user.getPassword());
+                    registrationPage.clickSignInButton();
+                    Thread.sleep(Duration.ofSeconds(5));
+                    break;  // Exit loop when email is received
+                }
+            } catch (ApiException e) {
+                System.err.println("Attempt " + attempt + ": Failed to fetch email");
+                Thread.sleep(pollInterval);  // Wait before next attempt
+            }
+        }
 
-        registrationPage.clickSignInButton();
-        Thread.sleep(Duration.ofSeconds(5));
+//        int retries = 5;
+//        for (int i = 0; i < retries; i++) {
+//            try {
+//                // Your code to call MailSlurp API
+//                var waitForControllerApi = new WaitForControllerApi(mailslurpClient);
+//                Email receivedEmail = waitForControllerApi
+//                        .waitForLatestEmail(inbox.getId(), TIMEOUT, false, null, currentTime, null, 10000L);
+//                var emailLink =
+//                        Arrays.stream(receivedEmail.getBody().split(System.getProperty("line.separator")))
+//                                .filter(l -> l.contains("email=")).findFirst().get();
+//
+//                System.out.println(emailLink.trim());
+//
+//                driver.navigate().to(emailLink.trim());
+//                System.out.println("Opened link");
+//                break;  // Exit loop if successful
+//            } catch (ApiException e) {
+//                if (i == retries - 1) {
+//                    throw e;  // Rethrow exception after last retry
+//                }
+//                // Wait and retry
+//                Thread.sleep(5000);  // Wait for 5 seconds before retrying
+//            }
+//        }
 
+//        Email receivedEmail = waitForControllerApi
+//                .waitForLatestEmail(inbox.getId(), TIMEOUT, false, null, currentTime, null, 10000L);
+
+//        var emailLink =
+//                Arrays.stream(receivedEmail.getBody().split(System.getProperty("line.separator")))
+//                        .filter(l -> l.contains("email=")).findFirst().get();
+//
+//        System.out.println(emailLink.trim());
+//
+//        driver.navigate().to(emailLink.trim());
+//        System.out.println("Opened link");
+//
+//        registrationPage.enterLoginEmailText(user.getEmail());
+//        WriteValidRegistrationCredentials("validEmail", user.getEmail());
+//        System.out.println(user.getEmail());
+//
+//        registrationPage.enterLoginPasswordText(user.getPassword());
+//        WriteValidRegistrationCredentials("validPassword", user.getPassword());
+//        System.out.println(user.getPassword());
+//
+//        registrationPage.clickSignInButton();
+//        Thread.sleep(Duration.ofSeconds(5));
         AgreeTermsAndConditionPage agreeTermsAndConditionPage= new AgreeTermsAndConditionPage(driver);
         Assert.assertTrue(agreeTermsAndConditionPage.verifyExistanceOfAgreeTermsAndConditions());
     }

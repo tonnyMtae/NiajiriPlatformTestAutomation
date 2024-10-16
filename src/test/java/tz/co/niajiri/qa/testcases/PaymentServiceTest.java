@@ -14,36 +14,29 @@ public class PaymentServiceTest extends Base{
         WebDriver driver;
         Faker faker;
         Action action;
+        SectorSkillsPage sectorSkillsPage;
 
         @BeforeMethod
         public void setUp() {
             action = new Action();
             faker = new Faker();
-            loadCommonDataPropertiesFile();
-            driver = initializeBrowserAndOpenApplicationURL(commonDataProperties.getProperty("browserName"));
+            loadLiveCredentialPropertiesFile();
+            driver = initializeBrowserAndOpenApplicationLiveURL(liveCredentialProperties.getProperty("browserName"));
         }
 
-        @Test(description = "Niajiri Inside CV Upload > Verify Filling Basic Details With Valid Inputs", retryAnalyzer = RetryListener.class)
+        @Test(description = "Niajiri Live Environment > Verify Payment service", retryAnalyzer = RetryListener.class)
         public void verifyFunctionalityOfPaymentService() throws InterruptedException {
-
-            loadPropertiesFile();
-
+            loadLiveCredentialPropertiesFile();
             LandingPage landingPage = new LandingPage(driver);
+
             landingPage.clickSignInButton();
-
             LoginPage loginPage = new LoginPage(driver);
-            loginPage.signInIntoNiajiri("cejihuci@clip.lat", "cejihuci@clip");
+            loginPage.enterValidEmailText(liveCredentialProperties.getProperty("validEmail"));
+            loginPage.enterValidPasswordText(liveCredentialProperties.getProperty("validPassword"));
 
-            WaitUtils.sleepTime(3);
-
-            SideMenuItems sideMenuItems = new SideMenuItems(driver);
-            sideMenuItems.clickJengaCVMenuItem();
-
-            WaitUtils.sleepTime(3);
-
-            DownloadCVWithoutWatermarkPage downloadCVWithoutWatermarkPage = new DownloadCVWithoutWatermarkPage(driver);
-            downloadCVWithoutWatermarkPage.downloadCVWithoutWatermark();
-
+            sectorSkillsPage = loginPage.clickSignInButton();
+            PaymentServicePage paymentServicePage = new PaymentServicePage(driver);
+            paymentServicePage.paymentTest();
             WaitUtils.sleepTime(3);
         }
         @AfterMethod

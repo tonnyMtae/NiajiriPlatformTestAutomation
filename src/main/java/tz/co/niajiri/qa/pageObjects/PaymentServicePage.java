@@ -12,20 +12,15 @@ public class PaymentServicePage extends LogTemplates{
     WebDriver driver;
     Action action = new Action();
 
-    @FindBy(xpath = "//span[normalize-space()='Jenga CV']")
-    private WebElement jengaCVMenuItem;
+    //section[@id='pricing']/div/div[2]/div[2]/div[2]/div[2]/div[4]
 
-    @FindBy(xpath = "//a[@id='downloadMyCv']")
-    private WebElement DownloadButton;
+    //section[@id='pricing']/div/div[2]/div[2]/descendant::a[1]
 
-    @FindBy(xpath = "//span[@id='downloadThisTemplate']")
-    private WebElement DownloadThisTemplate;
+    @FindBy(xpath = "//span[normalize-space()='Subscription']")
+    private WebElement SubscriptionMenuItem;
 
-    @FindBy(xpath = "//button[@id='upgradeNowBttn']")
-    private WebElement UpgradeNowButton;
-
-    @FindBy(xpath = "//a[@id='watermarkFreeDownloadLink']")
-    private WebElement PayNowButton;
+    @FindBy(xpath = "//section[@id='pricing']/div/div[2]/div[2]/descendant::a[1]")
+    private WebElement ShangwePackageButton;
 
     @FindBy(id = "sender")
     private WebElement PhoneNumberField;
@@ -36,28 +31,20 @@ public class PaymentServicePage extends LogTemplates{
     @FindBy(xpath = "//button[normalize-space()='OK']")
     private WebElement OKButton;
 
-    @FindBy(xpath = "//a[normalize-space()='Verify Payment']")
-    private WebElement VerifyPaymentButton;
+    @FindBy(xpath = "//a[normalize-space()='Retry Payment']")
+    private WebElement RetryPayment;
 
     public PaymentServicePage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
-    public void clickDownloadButton(){
-        action.click(DownloadButton, PaymentServicePage.class, DOWNLOADCVBUTTON);
+    public void clickSubscriptionMenuItem(){
+        action.click(SubscriptionMenuItem, PaymentServicePage.class, SUBSCRIPTIONMENUITEM);
     }
 
-    public void clickDownloadThisTemplateButton(){
-        action.click(DownloadThisTemplate, PaymentServicePage.class, DOWNLOADTHISTEMPLATE);
-    }
-
-    public void clickUpgradeNowButton(){
-        action.click(UpgradeNowButton, PaymentServicePage.class, UPGRADENOWBUTTON);
-    }
-
-    public void clickPayNowButton(){
-        action.click(PayNowButton, PaymentServicePage.class, PAYNOWBUTTON);
+    public void clickShangwePackageButton(){
+        action.click(ShangwePackageButton, PaymentServicePage.class, SHANGWEPACKAGEBUTTON);
     }
 
     public void enterPhoneNumber(String number){
@@ -68,27 +55,27 @@ public class PaymentServicePage extends LogTemplates{
         action.click(ProceedWithPaymentButton, PaymentServicePage.class, PROCEEDWITHPAYMENTBUTTON);
     }
 
-    public void clickVerifyPaymentButton(){
-        action.click(VerifyPaymentButton, PaymentServicePage.class, VERIFYPAYMENTBUTTON);
-    }
-
     public void clickOkButton(){
         action.click(OKButton, PaymentServicePage.class, VERIFYPAYMENTBUTTON);
     }
 
-    public void downloadCVWithoutWatermark() throws InterruptedException {
-        clickDownloadButton();
+    public void clickRetryPaymentButton(){
+        action.click(RetryPayment, PaymentServicePage.class, VERIFYPAYMENTBUTTON);
+    }
+
+    public void paymentTest() throws InterruptedException {
+        clickSubscriptionMenuItem();
         WaitUtils.sleepTime(3);
-        clickDownloadThisTemplateButton();
+        action.scrollToElement(driver, ShangwePackageButton, PaymentServicePage.class, SHANGWEPACKAGEBUTTON);
         WaitUtils.sleepTime(3);
-        clickUpgradeNowButton();
-        WaitUtils.sleepTime(3);
-        clickPayNowButton();
+        clickShangwePackageButton();
         WaitUtils.sleepTime(3);
         enterPhoneNumber("0694009881");
         WaitUtils.sleepTime(3);
         clickProceedPaymentButton();
-        WaitUtils.sleepTime(10);
+        WaitUtils.sleepTime(3);
         clickOkButton();
+        WaitUtils.sleepTime(3);
+        clickRetryPaymentButton();
     }
 }
