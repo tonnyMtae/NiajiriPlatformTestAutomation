@@ -4655,3 +4655,10 @@
 [INFO ] 2024-10-15 15:42:14.667 [Test worker] qa.pageObjects.PaymentServicePage - Clicked:Proceed With Payment Button 
 [INFO ] 2024-10-15 15:42:48.274 [Test worker] qa.pageObjects.PaymentServicePage - Clicked:Verify Payment Button 
 [INFO ] 2024-10-15 15:42:56.768 [Test worker] qa.pageObjects.PaymentServicePage - Clicked:Verify Payment Button 
+[INFO ] 2024-10-16 12:42:42.382 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-10-16 12:43:24.838 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-16 12:43:28.993 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-16 12:43:33.160 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-16 12:43:37.618 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-10-16 12:43:40.822 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-10-16 12:44:18.541 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 1 count

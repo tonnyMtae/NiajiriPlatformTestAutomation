@@ -34,7 +34,7 @@ test {
             suites project.suiteFile
         } else {
             // Fallback to default suites
-            suites "src/test/resources/defaultSuite.xml"
+            suites "src/test/resources/testng_RegressionInsideCVUpload.xml"
         }
     }
 }
