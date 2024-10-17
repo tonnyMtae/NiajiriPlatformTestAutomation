@@ -36,8 +36,8 @@ public class Base {
     public WebDriver initializeBrowserAndOpenApplicationURL(String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
             ChromeOptions options = new ChromeOptions();
-//            options.addArguments("--headless");
-//            options.addArguments("--window-size=1920,1080");
+            options.addArguments("--headless");
+            options.addArguments("--window-size=1920,1080");
             driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             FirefoxOptions options = new FirefoxOptions();
