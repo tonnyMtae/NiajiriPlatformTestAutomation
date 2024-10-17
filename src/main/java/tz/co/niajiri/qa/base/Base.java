@@ -36,8 +36,8 @@ public class Base {
     public WebDriver initializeBrowserAndOpenApplicationURL(String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("--headless");
-            options.addArguments("--window-size=1920,1080");
+//            options.addArguments("--headless");
+//            options.addArguments("--window-size=1920,1080");
             driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             FirefoxOptions options = new FirefoxOptions();
@@ -64,18 +64,18 @@ public class Base {
     public WebDriver initializeBrowserAndOpenApplicationLiveURL(String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
             ChromeOptions options = new ChromeOptions();
-//            options.addArguments("--headless");
-//            options.addArguments("--window-size=1920,1080");
+            options.addArguments("--headless=new");
+            options.addArguments("--window-size=1920,1080");
             driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             FirefoxOptions options = new FirefoxOptions();
-//            options.addArguments("--headless");
-//            options.addArguments("--window-size=1920,1080");
+            options.addArguments("--headless");
+            options.addArguments("--window-size=1920,1080");
             driver = new FirefoxDriver(options);
         } else if (browserName.equalsIgnoreCase("edge")) {
             EdgeOptions options = new EdgeOptions();
-//            options.addArguments("--headless");
-//            options.addArguments("--window-size=1920,1080");
+            options.addArguments("--headless");
+            options.addArguments("--window-size=1920,1080");
             driver = new EdgeDriver(options);
         } else if (browserName.equalsIgnoreCase("Safari")) {
             driver = new SafariDriver();

@@ -9,8 +9,6 @@ import tz.co.niajiri.qa.base.Base;
 import tz.co.niajiri.qa.pageObjects.SectorSkillsPage;
 import tz.co.niajiri.qa.utilities.RetryListener;
 
-import java.time.Duration;
-
 @Listeners(tz.co.niajiri.qa.utilities.Listeners.class)
 public class LoginTest extends Base {
     public WebDriver driver;

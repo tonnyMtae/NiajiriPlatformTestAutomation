@@ -4678,3 +4678,83 @@
 [INFO ] 2024-10-16 16:07:26.948 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.co.tz/ and Maximized chrome Browser.
 [INFO ] 2024-10-16 16:07:37.487 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
 [INFO ] 2024-10-16 16:07:40.548 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-10-17 17:44:12.403 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-10-17 17:44:40.347 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-17 17:44:45.503 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-17 17:44:49.270 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-17 17:45:02.811 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-10-17 17:45:11.534 [Test worker] qa.pageObjects.PaymentServicePage - Clicked:Subscription menu item 
+[INFO ] 2024-10-17 17:45:14.653 [Test worker] qa.pageObjects.PaymentServicePage - Scrolled to:Shangwe Package button 
+[INFO ] 2024-10-17 17:45:27.300 [Test worker] qa.pageObjects.PaymentServicePage - Clicked:Shangwe Package button 
+[INFO ] 2024-10-17 17:45:33.858 [Test worker] qa.pageObjects.PaymentServicePage - Entered value:Phone Number Field
+[INFO ] 2024-10-17 17:45:50.756 [Test worker] qa.pageObjects.PaymentServicePage - Clicked:Proceed With Payment Button 
+[INFO ] 2024-10-17 17:46:30.005 [Test worker] qa.pageObjects.PaymentServicePage - Clicked:Verify Payment Button 
+[INFO ] 2024-10-17 17:46:38.711 [Test worker] qa.pageObjects.PaymentServicePage - Clicked:Verify Payment Button 
+[INFO ] 2024-10-17 17:51:49.469 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-10-17 17:52:08.678 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-17 17:52:13.003 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-17 17:52:16.550 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-17 17:52:36.454 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-10-17 17:52:46.590 [Test worker] qa.pageObjects.PaymentServicePage - Clicked:Subscription menu item 
+[INFO ] 2024-10-17 17:52:49.654 [Test worker] qa.pageObjects.PaymentServicePage - Scrolled to:Shangwe Package button 
+[INFO ] 2024-10-17 17:52:59.827 [Test worker] qa.pageObjects.PaymentServicePage - Clicked:Shangwe Package button 
+[INFO ] 2024-10-17 17:53:06.287 [Test worker] qa.pageObjects.PaymentServicePage - Entered value:Phone Number Field
+[INFO ] 2024-10-17 17:53:19.872 [Test worker] qa.pageObjects.PaymentServicePage - Clicked:Proceed With Payment Button 
+[INFO ] 2024-10-17 17:53:53.768 [Test worker] qa.pageObjects.PaymentServicePage - Clicked:Verify Payment Button 
+[INFO ] 2024-10-17 17:54:03.052 [Test worker] qa.pageObjects.PaymentServicePage - Clicked:Verify Payment Button 
+[INFO ] 2024-10-17 18:21:08.686 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-10-17 18:21:30.618 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-17 18:21:34.650 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-17 18:21:38.048 [Test worker] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-17 18:21:51.387 [Test worker] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-10-17 18:21:58.480 [Test worker] qa.pageObjects.PaymentServicePage - Clicked:Subscription menu item 
+[INFO ] 2024-10-17 18:22:01.515 [Test worker] qa.pageObjects.PaymentServicePage - Scrolled to:Shangwe Package button 
+[INFO ] 2024-10-17 18:22:08.691 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-10-17 18:22:41.367 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-10-17 18:30:04.822 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 1 count
+[INFO ] 2024-10-17 19:09:26.405 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 2 count
+[INFO ] 2024-10-17 19:31:59.897 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-17 19:32:20.933 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-17 19:32:24.216 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-10-17 19:32:38.677 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-17 19:33:19.204 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-17 19:33:22.932 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 1 count
+[INFO ] 2024-10-17 19:33:40.442 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-17 19:34:01.120 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-17 19:34:04.481 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 2 count
+[INFO ] 2024-10-17 19:34:20.601 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-17 19:34:41.671 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-17 19:37:50.158 [Test worker] qa.base.Base - Navigated to URL: https://niajiri.ipfsoftwares.com/ and Maximized chrome Browser.
+[INFO ] 2024-10-17 19:38:09.399 [Test worker] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-17 19:38:12.836 [Test worker] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-10-17 19:42:10.460 [main] qa.base.Base - Navigated to URL: https://niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-10-17 19:42:32.462 [main] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-17 19:42:39.071 [main] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-17 19:42:42.948 [main] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-17 19:43:01.967 [main] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-10-17 19:43:14.081 [main] qa.pageObjects.PaymentServicePage - Clicked:Subscription menu item 
+[INFO ] 2024-10-17 19:43:17.142 [main] qa.pageObjects.PaymentServicePage - Scrolled to:Shangwe Package button 
+[INFO ] 2024-10-17 19:43:29.486 [main] qa.pageObjects.PaymentServicePage - Clicked:Shangwe Package button 
+[INFO ] 2024-10-17 19:43:36.114 [main] qa.pageObjects.PaymentServicePage - Entered value:Phone Number Field
+[INFO ] 2024-10-17 19:43:55.790 [main] qa.pageObjects.PaymentServicePage - Clicked:Proceed With Payment Button 
+[INFO ] 2024-10-17 19:44:38.554 [main] qa.pageObjects.PaymentServicePage - Clicked:Verify Payment Button 
+[INFO ] 2024-10-17 19:44:47.911 [main] qa.pageObjects.PaymentServicePage - Clicked:Verify Payment Button 
+[INFO ] 2024-10-17 22:27:07.365 [main] qa.base.Base - Navigated to URL: https://niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-10-17 22:30:42.577 [main] qa.base.Base - Navigated to URL: https://niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-10-17 22:31:12.788 [main] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-17 22:31:16.091 [main] qa.utilities.RetryListener - Retrying testcase for the 0 count
+[INFO ] 2024-10-17 22:31:55.063 [main] qa.utilities.RetryListener - Retrying testcase for the 1 count
+[INFO ] 2024-10-17 22:31:58.136 [main] qa.utilities.RetryListener - Retrying testcase for the 2 count
+[INFO ] 2024-10-17 22:39:21.269 [main] qa.base.Base - Navigated to URL: https://niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-10-17 22:54:30.741 [main] qa.base.Base - Navigated to URL: https://niajiri.co.tz/ and Maximized chrome Browser.
+[INFO ] 2024-10-17 22:54:50.411 [main] qa.pageObjects.LandingPage - Clicked:Sign In Button
+[INFO ] 2024-10-17 22:54:53.914 [main] qa.pageObjects.LoginPage - Entered value:Valid Email
+[INFO ] 2024-10-17 22:54:57.308 [main] qa.pageObjects.LoginPage - Entered value:Valid Password
+[INFO ] 2024-10-17 22:55:18.189 [main] qa.pageObjects.LoginPage - Clicked:Sign In Button
+[INFO ] 2024-10-17 22:55:35.846 [main] qa.pageObjects.PaymentServicePage - Clicked:Subscription menu item 
+[INFO ] 2024-10-17 22:55:38.934 [main] qa.pageObjects.PaymentServicePage - Scrolled to:Shangwe Package button 
+[INFO ] 2024-10-17 22:56:00.472 [main] qa.pageObjects.PaymentServicePage - Clicked:Shangwe Package button 
+[INFO ] 2024-10-17 22:56:07.222 [main] qa.pageObjects.PaymentServicePage - Entered value:Phone Number Field
+[INFO ] 2024-10-17 22:56:28.212 [main] qa.pageObjects.PaymentServicePage - Clicked:Proceed With Payment Button 
+[INFO ] 2024-10-17 22:57:06.031 [main] qa.pageObjects.PaymentServicePage - Clicked:Verify Payment Button 
+[INFO ] 2024-10-17 22:57:14.642 [main] qa.pageObjects.PaymentServicePage - Clicked:Verify Payment Button 
