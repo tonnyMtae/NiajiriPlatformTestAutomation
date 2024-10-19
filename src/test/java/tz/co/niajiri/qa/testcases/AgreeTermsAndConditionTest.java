@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import tz.co.niajiri.qa.base.Base;
 import tz.co.niajiri.qa.pageObjects.AgreeTermsAndConditionPage;
@@ -14,6 +15,7 @@ import tz.co.niajiri.qa.utilities.RetryListener;
 
 import java.time.Duration;
 
+@Listeners(tz.co.niajiri.qa.utilities.Listeners.class)
 public class AgreeTermsAndConditionTest extends Base {
     public WebDriver driver;
 
@@ -29,7 +31,6 @@ public class AgreeTermsAndConditionTest extends Base {
         LandingPage landingPage = new LandingPage(driver);
         SectorSkillsPage sectorSkillsPage = new SectorSkillsPage(driver);
         AgreeTermsAndConditionPage agreeTermsAndConditionPage = new AgreeTermsAndConditionPage(driver);
-
         landingPage.clickSignInButton();
         LoginPage loginPage = new LoginPage(driver);
         loginPage.enterValidEmailText(properties.getProperty("validEmail"));

@@ -32,7 +32,7 @@ import java.util.concurrent.TimeUnit;
 public class RegistrationTest extends Base {
     private static ApiClient mailslurpClient;
     private static InboxControllerApi inboxControllerApi;
-    //private static final String API_KEY = "482cc2684915589dce98ecfdbbf97f4b34d7aec948d0a26546bf17fceeb75502";
+    //private static final String API_KEY = "a24beb9934a8dd856a170810f3c02fbdc86bcb0730281539653f5acea46b14a3";
     private static final String API_KEY = System.getenv("MAILSLURP_API_KEY");
     public WebDriver driver;
     private static final Long TIMEOUT = 90000L;

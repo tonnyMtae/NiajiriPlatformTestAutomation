@@ -2,12 +2,12 @@ package tz.co.niajiri.qa.testcases;
 
 import com.github.javafaker.Faker;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.*;
 import tz.co.niajiri.qa.actionDriver.Action;
 import tz.co.niajiri.qa.base.Base;
 import tz.co.niajiri.qa.pageObjects.*;
 import tz.co.niajiri.qa.utilities.RetryListener;
-import tz.co.niajiri.qa.utilities.WaitUtils;
 
 @Listeners(tz.co.niajiri.qa.utilities.Listeners.class)
 public class PaymentServiceTest extends Base{
@@ -24,6 +24,8 @@ public class PaymentServiceTest extends Base{
             driver = initializeBrowserAndOpenApplicationLiveURL(liveCredentialProperties.getProperty("browserName"));
         }
 
+        //
+
         @Test(description = "Niajiri Live Environment > Verify Payment service", retryAnalyzer = RetryListener.class)
         public void verifyFunctionalityOfPaymentService() throws InterruptedException {
             loadLiveCredentialPropertiesFile();
@@ -37,7 +39,6 @@ public class PaymentServiceTest extends Base{
             sectorSkillsPage = loginPage.clickSignInButton();
             PaymentServicePage paymentServicePage = new PaymentServicePage(driver);
             paymentServicePage.paymentTest();
-            WaitUtils.sleepTime(3);
         }
         @AfterMethod
         public void tearDown(){

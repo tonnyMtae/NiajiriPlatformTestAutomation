@@ -19,6 +19,19 @@ public class LandingPage extends LogTemplates {
     private WebElement talentButton;
     @FindBy(id = "employerPageLink")
     private WebElement employerButton;
+    @FindBy(xpath = "//h1[normalize-space()='Lets start with your basic Information']")
+    private WebElement pageHeading;
+    @FindBy(xpath = "//span[normalize-space()='Build Your CV here']")
+    private WebElement buildYouCVHereButton;
+    @FindBy(xpath = "//a[normalize-space()='Continue']")
+    private WebElement continueButton;
+    @FindBy(xpath = "//label[@id='uploadCVLabel']")
+    private WebElement uploadCVLabel;
+    @FindBy(xpath = "//label[@id='fromScratchLabel']")
+    private WebElement fromScratchLabel;
+    @FindBy(xpath = "//button[normalize-space()='Continue']")
+    private WebElement continueButtonToUpload;
+
 
     public LandingPage(WebDriver driver){
         this.driver = driver;
@@ -35,7 +48,27 @@ public class LandingPage extends LogTemplates {
     public void clickTalentButton(){
         action.click(talentButton, LandingPage.class,TALENTBUTTON);
     }
-    public void clickEmployerButton(){
-        action.click(employerButton, LandingPage.class,EMPLOYERBUTTON);
+    public void clickBuildYourCVHereButton(){
+        action.click(buildYouCVHereButton, LandingPage.class,BUILDYOURCVHEREBUTTON);
+    }
+
+    public void clickContinueButton(){
+        action.click(continueButton, LandingPage.class,CONTINUEBUTTON);
+    }
+
+    public void clickUploadCVLabel(){
+        action.click(uploadCVLabel, LandingPage.class,UPLOADCVLABEL);
+    }
+
+    public void clickFromScratchLabel(){
+        action.click(fromScratchLabel, LandingPage.class,FROMSCRATCHLABEL);
+    }
+
+    public void clickContinueButtonToUpload(){
+        action.click(continueButtonToUpload, LandingPage.class,CONTINUEBUTTON);
+    }
+
+    public String getPageHeadingText(){
+        return pageHeading.getText();
     }
 }

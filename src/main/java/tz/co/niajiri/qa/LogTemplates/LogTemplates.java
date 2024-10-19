@@ -105,6 +105,10 @@ public class LogTemplates {
     protected static String DOWNLOADTHISTEMPLATE = "Download This Template icon button ";
     protected static String SUBSCRIPTIONMENUITEM = "Subscription menu item ";
     protected static String SHANGWEPACKAGEBUTTON = "Shangwe Package button ";
+    protected static String BUILDYOURCVHEREBUTTON = "Build Your CV Here Button";
+    protected static String UPLOADCVLABEL = "Upload CV Label";
+    protected static String FROMSCRATCHLABEL = "From Scratch Label";
+    protected static String PAGEHEADING = "Page Heading";
 
 
 
